@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<sdf version="1.10">
+    <model name="NXP_AIM_S3_Qualifiers_Track">
+        <static>false</static>
+        <link name="main">
+            <collision name="collision">
+                <pose>0 0 0 0 0 0</pose>
+                <geometry>
+                    <plane>
+                        <normal>0 0 1</normal>
+                        <size>100 100</size>
+                    </plane>
+                </geometry>
+            </collision>
+            <visual name="NXP_AIM_S3_Qualifiers_Track">
+                <pose>-4 -0.48 -0.065 0 0 0</pose>
+                <!-- <pose>-7 -0.25 -0.06 0 0 0</pose> -->
+                <geometry>
+                    <mesh>
+                        <scale>1 1 1</scale>
+                        <!-- <scale>0.6 0.6 0.6</scale> -->
+                        <uri>meshes/NXP_AIM_S3_Qualifiers_Track.dae</uri>
+                    </mesh>
+                </geometry>
+            </visual>
+        </link>
+
+        <joint name="world_joint" type="fixed">
+            <parent>world</parent>
+            <child>main</child>
+        </joint>
+    </model>
+</sdf>
