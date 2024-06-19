@@ -88,5 +88,23 @@
       </uri>
     </include>
 
+    <include>
+      <uri>
+        models://car_blue
+      </uri>
+    </include>
+
+    <include>
+      <uri>
+        models://fire_hydrant
+      </uri>
+    </include>
+
+    <include>
+      <uri>
+        models://car
+      </uri>
+    </include>
+
   </world>
 </sdf>
