@@ -1,6 +1,16 @@
 <?xml version="1.0"?>
 <sdf version='1.10'>
   <world name='default'>
+    <light type="directional" name="my_light">
+        <pose>0 0 30 0 0 0</pose>
+        <diffuse>1.0 1.0 1.0 1</diffuse>
+        <specular>.1 .1 .1 1</specular>
+        <attenuation>
+            <range>100</range>
+        </attenuation>
+        <direction>0 0 -1</direction>
+        <cast_shadows>true</cast_shadows>
+    </light>
     <physics type='ode'>
       <max_step_size>0.0040000000000000001</max_step_size>
       <real_time_factor>1</real_time_factor>
@@ -26,8 +36,8 @@
         </gz-gui>
         <engine>ogre2</engine>
         <scene>scene</scene>
-        <ambient_light>0.5984631152222222 0.5984631152222222 0.5984631152222222</ambient_light>
-        <background_color>0.8984631152222222 0.8984631152222222 0.8984631152222222</background_color>
+        <ambient_light>1.0 1.0 1.0</ambient_light>
+        <background_color>1.0 1.0 1.0</background_color>
         <camera_pose>-6 0 6 0 0.5 0</camera_pose>
       </plugin>
       <plugin name='World control' filename='WorldControl'>
