@@ -15,7 +15,7 @@
         </geometry>
       </collision>
       <visual name='Raceway_1/TrackVisual'>
-        <pose>0 0 -.045 0 0 0</pose>
+        <pose>0 0 -0.014 0 0 0</pose>
         <geometry>
           <mesh>
             <scale>0.35 0.35 0.35</scale>
