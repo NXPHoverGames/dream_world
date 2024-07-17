@@ -6,7 +6,7 @@ newmtl Hatchback
 	Ni 1.5000
 	d 1.0000
 	Tr 0.0000
-	Tf 1.0000 1.0000 1.0000
+	Tf 1.0000 1.0000 1.0000 
 	illum 2
 	Ka 0.5882 0.5882 0.5882
 	Kd 0.5882 0.5882 0.5882
@@ -20,11 +20,11 @@ newmtl Wheels3
 	Ni 1.5000
 	d 1.0000
 	Tr 0.0000
-	Tf 1.0000 1.0000 1.0000
+	Tf 1.0000 1.0000 1.0000 
 	illum 2
 	Ka 0.5882 0.5882 0.5882
 	Kd 0.5882 0.5882 0.5882
 	Ks 0.0000 0.0000 0.0000
 	Ke 0.0000 0.0000 0.0000
-	map_Ka wheels3.png
-	map_Kd wheels3.png
+	map_Ka model://hatchback/materials/textures/wheels3.png
+	map_Kd model://hatchback/materials/textures/wheels3.png

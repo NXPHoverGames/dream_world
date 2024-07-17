@@ -1,8 +1,8 @@
 <?xml version="1.0" ?>
 <sdf version="1.6">
   <model name='Raceway_1'>
-    <!-- <pose>0 0 0 0 0 1.55</pose> -->
-    <pose>0 0.025 0z 0 0 4.7</pose>
+    <!--<pose>0 0 0 0 0 1.55</pose> -->
+    <pose>0 2.245 0 0 0 1.55</pose>
     <self_collide>false</self_collide>
     <static>true</static>
     <link name='Raceway_1/Base'>
