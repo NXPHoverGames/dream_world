@@ -1,0 +1,30 @@
+STARTING POSE (x, y, yaw)
+(0.0, 0.0, 0.0)    # warehouse_1.
+(0.0, -7.0, 1.57)  # warehouse_2.
+(5.0, -2.0, 3.14)  # warehouse_3.
+(5.0, -2.0, 3.14)  # warehouse_4.
+
+INITIAL_ANGLE = 135.0  # warehouse_1.
+INITIAL_ANGLE = 040.6  # warehouse_2.
+INITIAL_ANGLE = 045.0  # warehouse_3.
+INITIAL_ANGLE = 045.0  # warehouse_4.
+
+SHELF_COUNT = 2  # warehouse_1.
+SHELF_COUNT = 4  # warehouse_2.
+SHELF_COUNT = 3  # warehouse_3.
+SHELF_COUNT = 5  # warehouse_4.
+
+QR_CODE_LIST = ["1_315.0_Ad5PqIlXvPqApGFdLXEboS",
+		"2_000.0_HKq3wvCg8DGyflz3oNIj8d",]  # warehouse_1.
+QR_CODE_LIST = ["1_259.7_Ad5PqIlXvPqApGFdLXEboS",
+		"2_352.9_HKq3wvCg8DGyflz3oNIj8d",
+		"3_140.2_XrruqVBC54EA1msrsm33cn",
+		"4_000.0_NMB2RoWOXWlUyqUFrVzKMp",]  # warehouse_2.
+QR_CODE_LIST = ["1_263.7_Ad5PqIlXvPqApGFdLXEboS",
+		"2_123.7_HKq3wvCg8DGyflz3oNIj8d",
+		"3_000.0_XrruqVBC54EA1msrsm33cn",]  # warehouse_3.
+QR_CODE_LIST = ["1_263.7_Ad5PqIlXvPqApGFdLXEboS",
+		"2_123.7_HKq3wvCg8DGyflz3oNIj8d",
+		"3_270.0_XrruqVBC54EA1msrsm33cn",
+		"4_000.0_NMB2RoWOXWlUyqUFrVzKMp",
+		"5_000.0_SM32R4WOX6lUyqgFrhzKMo",]  # warehouse_4.

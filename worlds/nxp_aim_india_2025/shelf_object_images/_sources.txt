@@ -1,0 +1,9 @@
+horse - https://commons.wikimedia.org/wiki/File:Australian_Stock_Horse.jpg
+clock - https://commons.wikimedia.org/wiki/File:Metric_clock.JPG
+zebra - https://commons.wikimedia.org/wiki/File:Common_zebra_1.jpg
+plant - https://commons.wikimedia.org/wiki/File:Plant_tangerine_in_a_pot.jpg
+cup - https://commons.wikimedia.org/wiki/File:White_cup_of_black_coffee.jpg
+teddy - https://commons.wikimedia.org/wiki/File:Ours_en_peluche_-_01.jpg
+banana - https://www.rawpixel.com/image/6041230/photo-image-public-domain-plant-fruit
+car - https://commons.wikimedia.org/wiki/File:BYD_Seal,_IAA_Open_Space_2023,_Munich_(P1120204).jpg
+lock - https://commons.wikimedia.org/wiki/File:Svengraph_Lock.png
